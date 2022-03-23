@@ -1,0 +1,17 @@
+<?
+$PERM["/"]["8"]="W";
+$PERM["/"]["*"]="R";
+$PERM["advertisments"]["8"]="W";
+$PERM["about-service"]["8"]="W";
+$PERM["sellers-personal-account"]["7"]="R";
+$PERM["sellers-personal-account"]["*"]="D";
+$PERM["buyers-personal-account"]["6"]="R";
+$PERM["buyers-personal-account"]["*"]="D";
+$PERM["search"]["5"]="W";
+$PERM["products"]["5"]="W";
+$PERM["services"]["5"]="W";
+$PERM["news"]["5"]="W";
+$PERM["contacts"]["5"]="W";
+$PERM["company"]["5"]="W";
+$PERM["index.php"]["5"]="W";
+?>
