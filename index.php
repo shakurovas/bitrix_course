@@ -5,6 +5,39 @@ $APPLICATION->SetPageProperty("keywords", "главная, биржа, недв�
 $APPLICATION->SetPageProperty("description", "Главная");
 $APPLICATION->SetTitle("Главная");
 ?><?$APPLICATION->IncludeComponent(
+	"bitrix:main.include",
+	"",
+	Array(
+		"AREA_FILE_SHOW" => "file",
+		"AREA_FILE_SUFFIX" => "inc",
+		"EDIT_TEMPLATE" => "",
+		"PATH" => ""
+	)
+);?><br>
+ <?/*$APPLICATION->IncludeComponent(
+	"bitrix:menu",
+	"",
+	Array(
+		"ALLOW_MULTI_SELECT" => "N",
+		"CHILD_MENU_TYPE" => "left",
+		"DELAY" => "N",
+		"MAX_LEVEL" => "1",
+		"MENU_CACHE_GET_VARS" => array(""),
+		"MENU_CACHE_TIME" => "3600",
+		"MENU_CACHE_TYPE" => "Y",
+		"MENU_CACHE_USE_GROUPS" => "Y",
+		"ROOT_MENU_TYPE" => "top",
+		"USE_EXT" => "N"
+	)
+);*/?><br>
+<?GLOBAL $arrFilter;
+    $arrFilter = array(
+	  "IBLOCK_ID" => 5,
+      'PROPERTY_is_a_priority_VALUE' => 'да');
+	$GLOBALS['arrFilter'] = array('PROPERTY_is_a_priority_deal_VALUE' => 'да'); 
+	  ?>
+<?php #print_r($arFields['PROPERTY_is_a_priority_deal_VALUE');?>
+ <?$APPLICATION->IncludeComponent(
 	"bitrix:news.list",
 	"",
 	Array(
@@ -29,10 +62,10 @@ $APPLICATION->SetTitle("Главная");
 		"DISPLAY_TOP_PAGER" => "N",
 		"FIELD_CODE" => array("",""),
 		"FILE_404" => "",
-		"FILTER_NAME" => "",
+		"FILTER_NAME" => "arrFilter",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"IBLOCK_ID" => $_REQUEST["ID"],
-		"IBLOCK_TYPE" => "news",
+		"IBLOCK_ID" => "5",
+		"IBLOCK_TYPE" => "ads",
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
 		"INCLUDE_SUBSECTIONS" => "Y",
 		"MESSAGE_404" => "",
@@ -47,7 +80,7 @@ $APPLICATION->SetTitle("Главная");
 		"PARENT_SECTION" => "",
 		"PARENT_SECTION_CODE" => "",
 		"PREVIEW_TRUNCATE_LEN" => "",
-		"PROPERTY_CODE" => array("",""),
+		"PROPERTY_CODE" => array("is_a_priority_deal",""),
 		"SET_BROWSER_TITLE" => "Y",
 		"SET_LAST_MODIFIED" => "N",
 		"SET_META_DESCRIPTION" => "Y",
@@ -62,7 +95,7 @@ $APPLICATION->SetTitle("Главная");
 		"STRICT_SECTION_CHECK" => "N"
 	)
 );?><br>
- <?$APPLICATION->IncludeComponent(
+<?$APPLICATION->IncludeComponent(
 	"bitrix:news.line",
 	"",
 	Array(
@@ -71,7 +104,7 @@ $APPLICATION->SetTitle("Главная");
 		"CACHE_TIME" => "604800",
 		"CACHE_TYPE" => "A",
 		"DETAIL_URL" => "",
-		"FIELD_CODE" => array("",""),
+		"FIELD_CODE" => array(),
 		"IBLOCKS" => array(),
 		"IBLOCK_TYPE" => "ads",
 		"NEWS_COUNT" => "9",
@@ -81,15 +114,64 @@ $APPLICATION->SetTitle("Главная");
 		"SORT_ORDER2" => "ASC"
 	)
 );?><br>
- <?$APPLICATION->IncludeComponent(
-	"bitrix:main.include",
+<?$APPLICATION->IncludeComponent(
+	"bitrix:news.line",
 	"",
 	Array(
-		"AREA_FILE_SHOW" => "page",
-		"AREA_FILE_SUFFIX" => "inc",
-		"EDIT_TEMPLATE" => ""
+		"ACTIVE_DATE_FORMAT" => "d.m.Y",
+		"CACHE_GROUPS" => "Y",
+		"CACHE_TIME" => "604800",
+		"CACHE_TYPE" => "A",
+		"DETAIL_URL" => "",
+		"FIELD_CODE" => array(),
+		"IBLOCKS" => array(),
+		"IBLOCK_TYPE" => "services",
+		"NEWS_COUNT" => "6",
+		"SORT_BY1" => "ACTIVE_FROM",
+		"SORT_BY2" => "SORT",
+		"SORT_ORDER1" => "DESC",
+		"SORT_ORDER2" => "ASC"
 	)
-);?>
+);?><br>
+<?$APPLICATION->IncludeComponent(
+	"bitrix:news.line",
+	"",
+	Array(
+		"ACTIVE_DATE_FORMAT" => "d.m.Y",
+		"CACHE_GROUPS" => "Y",
+		"CACHE_TIME" => "604800",
+		"CACHE_TYPE" => "A",
+		"DETAIL_URL" => "",
+		"FIELD_CODE" => array(),
+		"IBLOCKS" => array(),
+		"IBLOCK_TYPE" => "news",
+		"NEWS_COUNT" => "3",
+		"SORT_BY1" => "ACTIVE_FROM",
+		"SORT_BY2" => "SORT",
+		"SORT_ORDER1" => "DESC",
+		"SORT_ORDER2" => "ASC"
+	)
+);?><br>
+<?$APPLICATION->IncludeComponent(
+	"bitrix:news.line",
+	"",
+	Array(
+		"ACTIVE_DATE_FORMAT" => "d.m.Y",
+		"CACHE_GROUPS" => "Y",
+		"CACHE_TIME" => "604800",
+		"CACHE_TYPE" => "A",
+		"DETAIL_URL" => "",
+		"FIELD_CODE" => array(),
+		"IBLOCKS" => array(),
+		"IBLOCK_TYPE" => "agents",
+		"NEWS_COUNT" => "3",
+		"SORT_BY1" => "ACTIVE_FROM",
+		"SORT_BY2" => "SORT",
+		"SORT_ORDER1" => "DESC",
+		"SORT_ORDER2" => "ASC"
+	)
+);?><br>
+<br>
 <p>
 </p>
 <p>

@@ -41,27 +41,45 @@ require($_SERVER["DOCUMENT_ROOT"]."/local/templates/home/header.php");
       <div class="feature d-flex align-items-start">
         <span class="icon mr-3 flaticon-house"></span>
         <div class="text">
-          <h2 class="mt-0">Wide Range of Properties</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit rem sint debitis porro quae dolorum neque.</p>
-        </div>
+          <?$APPLICATION->IncludeComponent(
+            "bitrix:main.include",
+            "",
+            Array(
+              "AREA_FILE_SHOW" => "file",
+              "AREA_FILE_SUFFIX" => "inc",
+              "EDIT_TEMPLATE" => "",
+              "PATH" => "/include/property1.php"
+            )
+          );?>  
+      </div>
       </div>
     </div>
     <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
       <div class="feature d-flex align-items-start">
-        <span class="icon mr-3 flaticon-rent"></span>
-        <div class="text">
-          <h2 class="mt-0">Rent or Sale</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit rem sint debitis porro quae dolorum neque.</p>
-        </div>
+        <?$APPLICATION->IncludeComponent(
+            "bitrix:main.include",
+            "",
+            Array(
+              "AREA_FILE_SHOW" => "file",
+              "AREA_FILE_SUFFIX" => "inc",
+              "EDIT_TEMPLATE" => "",
+              "PATH" => "/include/property2.php"
+            )
+          );?>
       </div>
     </div>
     <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
       <div class="feature d-flex align-items-start">
-        <span class="icon mr-3 flaticon-location"></span>
-        <div class="text">
-          <h2 class="mt-0">Property Location</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit rem sint debitis porro quae dolorum neque.</p>
-        </div>
+        <?$APPLICATION->IncludeComponent(
+          "bitrix:main.include",
+          "",
+          Array(
+            "AREA_FILE_SHOW" => "file",
+            "AREA_FILE_SUFFIX" => "inc",
+            "EDIT_TEMPLATE" => "",
+            "PATH" => "/include/property3.php"
+          )
+        );?>
       </div>
     </div>
   </div>
@@ -76,6 +94,32 @@ require($_SERVER["DOCUMENT_ROOT"]."/local/templates/home/header.php");
       </div>
     </div>
   </div>
+  <?/*GLOBAL $arrFilter;
+    $arrFilter = array(
+      "IBLOCK_ID" => 5,
+        'PROPERTY_is_a_priority_VALUE' => 'да');
+    $GLOBALS['arrFilter'] = array('PROPERTY_is_a_priority_deal_VALUE' => 'да');*/?> 
+      
+  <?/*$APPLICATION->IncludeComponent(
+        "bitrix:news.line",
+        "",
+        Array(
+          "ACTIVE_DATE_FORMAT" => "d.m.Y",
+          "CACHE_GROUPS" => "Y",
+          "CACHE_TIME" => "604800",
+          "CACHE_TYPE" => "A",
+          "DETAIL_URL" => "",
+          "FIELD_CODE" => array("",""),
+          "IBLOCKS" => array(),
+          "IBLOCK_TYPE" => "ads",
+          "NEWS_COUNT" => "9",
+          "FILTER_NAME" => "arrFilter",
+          "SORT_BY1" => "ACTIVE_FROM",
+          "SORT_BY2" => "SORT",
+          "SORT_ORDER1" => "DESC",
+          "SORT_ORDER2" => "ASC"
+        )
+        );*/?>
   <div class="row mb-5">
     <div class="col-md-6 col-lg-4 mb-4">
       <a href="property-details.html" class="prop-entry d-block">
@@ -298,6 +342,26 @@ require($_SERVER["DOCUMENT_ROOT"]."/local/templates/home/header.php");
     </div>
   </div>
 
+  <?/*$APPLICATION->IncludeComponent(
+        "bitrix:news.line",
+        "",
+        Array(
+          "ACTIVE_DATE_FORMAT" => "d.m.Y",
+          "CACHE_GROUPS" => "Y",
+          "CACHE_TIME" => "604800",
+          "CACHE_TYPE" => "A",
+          "DETAIL_URL" => "",
+          "FIELD_CODE" => array("",""),
+          "IBLOCKS" => array(),
+          "IBLOCK_TYPE" => "services",
+          "NEWS_COUNT" => "6",
+          "SORT_BY1" => "ACTIVE_FROM",
+          "SORT_BY2" => "SORT",
+          "SORT_ORDER1" => "DESC",
+          "SORT_ORDER2" => "ASC"
+        )
+      );*/?>
+
   <div class="row">
     <div class="col-md-6 col-lg-4 mb-4">
       <a href="#" class="service text-center border rounded">
@@ -355,6 +419,25 @@ require($_SERVER["DOCUMENT_ROOT"]."/local/templates/home/header.php");
       </div>
     </div>
   </div>
+  <?/*$APPLICATION->IncludeComponent(
+        "bitrix:news.line",
+        "",
+        Array(
+          "ACTIVE_DATE_FORMAT" => "d.m.Y",
+          "CACHE_GROUPS" => "Y",
+          "CACHE_TIME" => "604800",
+          "CACHE_TYPE" => "A",
+          "DETAIL_URL" => "",
+          "FIELD_CODE" => array("",""),
+          "IBLOCKS" => array(),
+          "IBLOCK_TYPE" => "news",
+          "NEWS_COUNT" => "3",
+          "SORT_BY1" => "ACTIVE_FROM",
+          "SORT_BY2" => "SORT",
+          "SORT_ORDER1" => "DESC",
+          "SORT_ORDER2" => "ASC"
+        )
+      );*/?>
   <div class="row">
     <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="100">
       <a href="#"><img src="<?=SITE_TEMPLATE_PATH?>/images/img_4.jpg" alt="Image" class="img-fluid"></a>
@@ -397,6 +480,26 @@ require($_SERVER["DOCUMENT_ROOT"]."/local/templates/home/header.php");
   </div>
 </div>
 <div class="row block-13">
+
+  <?/*$APPLICATION->IncludeComponent(
+    "bitrix:news.line",
+    "",
+    Array(
+      "ACTIVE_DATE_FORMAT" => "d.m.Y",
+      "CACHE_GROUPS" => "Y",
+      "CACHE_TIME" => "604800",
+      "CACHE_TYPE" => "A",
+      "DETAIL_URL" => "",
+      "FIELD_CODE" => array("",""),
+      "IBLOCKS" => array(),
+      "IBLOCK_TYPE" => "agents",
+      "NEWS_COUNT" => "3",
+      "SORT_BY1" => "ACTIVE_FROM",
+      "SORT_BY2" => "SORT",
+      "SORT_ORDER1" => "DESC",
+      "SORT_ORDER2" => "ASC"
+    )
+  );*/?>
 
   <div class="nonloop-block-13 owl-carousel">
 
