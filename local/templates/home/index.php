@@ -28,7 +28,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/local/templates/home/header.php");
     <p class="mb-0"><a href="#" class="text-uppercase small letter-spacing-1 font-weight-bold">More Details</a></p>
     
   </div>
-  
+
 </div>  
 
 </div>
@@ -85,7 +85,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/local/templates/home/header.php");
   </div>
 </div>
 </div>
-<div class="site-section site-section-sm bg-light">
+<div class="section site-section-sm bg-light">
 <div class="container">
   <div class="row mb-5">
     <div class="col-12">

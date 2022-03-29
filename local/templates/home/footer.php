@@ -25,31 +25,31 @@ SITE_TEMPLATE_PATH;
                 )
               );?>
             </div>
-
-            
-            
           </div>
           <div class="col-lg-4 mb-5 mb-lg-0">
             <div class="row mb-5">
 
               <?$APPLICATION->IncludeComponent(
-                "bitrix:menu",
-                "",
-                Array(
+                "bitrix:menu", 
+                "bottom_menu", 
+                array(
                   "ALLOW_MULTI_SELECT" => "N",
-                  "CHILD_MENU_TYPE" => "",
+                  "CHILD_MENU_TYPE" => "left",
                   "DELAY" => "N",
                   "MAX_LEVEL" => "1",
-                  "MENU_CACHE_GET_VARS" => array(""),
+                  "MENU_CACHE_GET_VARS" => array(
+                  ),
                   "MENU_CACHE_TIME" => "3600",
                   "MENU_CACHE_TYPE" => "Y",
                   "MENU_CACHE_USE_GROUPS" => "Y",
                   "ROOT_MENU_TYPE" => "bottom",
-                  "USE_EXT" => "N"
-                )
+                  "USE_EXT" => "N",
+                  "COMPONENT_TEMPLATE" => "bottom_menu"
+                ),
+                false
               );?>
 
-              <div class="col-md-12">
+              <!-- <div class="col-md-12">
                 <h3 class="footer-heading mb-4">Navigations</h3>
               </div>
               <div class="col-md-6 col-lg-6">
@@ -67,15 +67,14 @@ SITE_TEMPLATE_PATH;
                   <li><a href="#">Contact Us</a></li>
                   <li><a href="#">Terms</a></li>
                 </ul>
-              </div>
+              </div> -->
             </div>
 
 
           </div>
 
           <div class="col-lg-4 mb-5 mb-lg-0">
-            <!-- <h3 class="footer-heading mb-4">Follow Us</h3>
-                <div> -->
+            <!-- <h3 class="footer-heading mb-4">Follow Us</h3> -->
                   <?$APPLICATION->IncludeComponent(
                     "bitrix:main.include",
                     "",
@@ -86,30 +85,27 @@ SITE_TEMPLATE_PATH;
                       "PATH" => "/include/follow_us_in_footer.php"
                     )
                   );?>
-
           </div>
           
         </div>
         <div class="row pt-5 mt-5 text-center">
           <div class="col-md-12">
             <p>
-
-            <?$APPLICATION->IncludeComponent(
-              "bitrix:main.include",
-              "",
-              Array(
-                "AREA_FILE_SHOW" => "file",
-                "AREA_FILE_SUFFIX" => "inc",
-                "EDIT_TEMPLATE" => "",
-                "PATH" => "/include/copyright.php"
-              )
-            );?>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            <!-- Copyright &copy;</script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a> -->
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              <?$APPLICATION->IncludeComponent(
+                "bitrix:main.include",
+                "",
+                Array(
+                  "AREA_FILE_SHOW" => "file",
+                  "AREA_FILE_SUFFIX" => "inc",
+                  "EDIT_TEMPLATE" => "",
+                  "PATH" => "/include/copyright.php"
+                )
+              );?>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              <!-- Copyright &copy;</script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a> -->
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
           </div>
-          
         </div>
       </div>
     </footer>
