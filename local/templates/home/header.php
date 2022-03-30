@@ -14,9 +14,9 @@ define('SITE_TEMPLATE_PATH', '/local/templates/home'); #Содержит пут�
 <!DOCTYPE html>
 <html lang="<?=LANGUAGE_ID;?>">
   <head>
-    <?$APPLICATION->ShowTitle();?>
-    <?$APPLICATION->ShowHead();?>
     
+    <?$APPLICATION->ShowHead();?>
+    <title><?$APPLICATION->ShowTitle();?></title>
     
     
     <!-- <meta charset="utf-8">
@@ -44,8 +44,11 @@ define('SITE_TEMPLATE_PATH', '/local/templates/home'); #Содержит пут�
     $asset->addCss(SITE_TEMPLATE_PATH . "https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Roboto+Mono:300,400,500");
     $asset->addCss(SITE_TEMPLATE_PATH . "/fonts/icomoon/style.css");
     $asset->addCss(SITE_TEMPLATE_PATH . "/css/bootstrap.min.css");
+    $asset->addCss(SITE_TEMPLATE_PATH . "/css/bootstrap/bootstrap-reboot.css");
+    $asset->addCss(SITE_TEMPLATE_PATH . "/css/bootstrap/bootstrap-grid.css");
     $asset->addCss(SITE_TEMPLATE_PATH . "/css/magnific-popup.css");
     $asset->addCss(SITE_TEMPLATE_PATH . "/css/jquery-ui.css");
+    $asset->addCss(SITE_TEMPLATE_PATH . "/css/progress-bar.css");
     $asset->addCss(SITE_TEMPLATE_PATH . "/css/owl.carousel.min.css");
     $asset->addCss(SITE_TEMPLATE_PATH . "/css/owl.theme.default.min.css");
     $asset->addCss(SITE_TEMPLATE_PATH . "/css/bootstrap-datepicker.css");
@@ -214,3 +217,26 @@ define('SITE_TEMPLATE_PATH', '/local/templates/home'); #Содержит пут�
       </div>
     </div>
     
+    <?if ($APPLICATION->GetCurPage(true) == SITE_DIR."index.php"){?><?} else {?>
+      <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(<?=SITE_TEMPLATE_PATH . '/images/hero_bg_2.jpg'?>);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+          <div class="col-md-10">
+            <h1 class="mb-2"><?$APPLICATION->ShowTitle();?></h1>
+            <div>
+              <?$APPLICATION->IncludeComponent(
+                "bitrix:breadcrumb",
+                "nav2",
+                Array(
+                  "PATH" => "",
+                  "SITE_ID" => "s1",
+                  "START_FROM" => "0"
+                )
+              );?>
+              <!-- <a href="index.html">Home</a> <span class="mx-2 text-white">&bullet;</span> <strong class="text-white">About</strong> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <?}?>
