@@ -217,7 +217,7 @@ define('SITE_TEMPLATE_PATH', '/local/templates/home'); #Содержит пут�
       </div>
     </div>
     
-    <?if ($APPLICATION->GetCurPage(true) == SITE_DIR."index.php"){?><?} else {?>
+    <?if ($APPLICATION->GetCurPage() == '/'){?><?} else {?>
       <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(<?=SITE_TEMPLATE_PATH . '/images/hero_bg_2.jpg'?>);" data-aos="fade" data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row align-items-center justify-content-center text-center">
@@ -225,14 +225,16 @@ define('SITE_TEMPLATE_PATH', '/local/templates/home'); #Содержит пут�
             <h1 class="mb-2"><?$APPLICATION->ShowTitle();?></h1>
             <div>
               <?$APPLICATION->IncludeComponent(
-                "bitrix:breadcrumb",
-                "nav2",
-                Array(
-                  "PATH" => "",
-                  "SITE_ID" => "s1",
-                  "START_FROM" => "0"
-                )
-              );?>
+	"bitrix:breadcrumb", 
+	"nav2", 
+	array(
+		"PATH" => "",
+		"SITE_ID" => "s1",
+		"START_FROM" => "0",
+		"COMPONENT_TEMPLATE" => "nav2"
+	),
+	false
+);?>
               <!-- <a href="index.html">Home</a> <span class="mx-2 text-white">&bullet;</span> <strong class="text-white">About</strong> -->
             </div>
           </div>
