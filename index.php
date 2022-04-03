@@ -4,15 +4,14 @@ $APPLICATION->SetPageProperty("title", "Биржа недвижимости");
 $APPLICATION->SetPageProperty("keywords", "главная, биржа, недвижимость");
 $APPLICATION->SetPageProperty("description", "Главная");
 $APPLICATION->SetTitle("Главная");
-?> <?GLOBAL $arrFilter;
+?><?GLOBAL $arrFilter;
     $arrFilter = array(
 	  "IBLOCK_ID" => 5,
       'PROPERTY_is_a_priority_VALUE' => 'да');
-	$GLOBALS['arrFilter'] = array('PROPERTY_is_a_priority_deal_VALUE' => 'да'); 
 	  ?> <?php #print_r($arFields['PROPERTY_is_a_priority_deal_VALUE');?> <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list", 
-	"slider", 
-	array(
+	"bitrix:news.list",
+	"slider",
+	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"ADD_SECTIONS_CHAIN" => "N",
 		"AJAX_MODE" => "N",
@@ -25,6 +24,7 @@ $APPLICATION->SetTitle("Главная");
 		"CACHE_TIME" => "1209600",
 		"CACHE_TYPE" => "A",
 		"CHECK_DATES" => "Y",
+		"COMPONENT_TEMPLATE" => "slider",
 		"DETAIL_URL" => "#SITE_DIR#/advertisments/#ELEMENT_CODE#/",
 		"DISPLAY_BOTTOM_PAGER" => "Y",
 		"DISPLAY_DATE" => "N",
@@ -32,11 +32,7 @@ $APPLICATION->SetTitle("Главная");
 		"DISPLAY_PICTURE" => "Y",
 		"DISPLAY_PREVIEW_TEXT" => "N",
 		"DISPLAY_TOP_PAGER" => "N",
-		"FIELD_CODE" => array(
-			0 => "PREVIEW_PICTURE",
-			1 => "DETAIL_PICTURE",
-			2 => "",
-		),
+		"FIELD_CODE" => array(0=>"PREVIEW_PICTURE",1=>"DETAIL_PICTURE",2=>"",),
 		"FILE_404" => "",
 		"FILTER_NAME" => "arrFilter",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
@@ -58,11 +54,7 @@ $APPLICATION->SetTitle("Главная");
 		"PARENT_SECTION" => "",
 		"PARENT_SECTION_CODE" => "",
 		"PREVIEW_TRUNCATE_LEN" => "",
-		"PROPERTY_CODE" => array(
-			0 => "is_a_priority_deal",
-			1 => "price",
-			2 => "",
-		),
+		"PROPERTY_CODE" => array(0=>"is_a_priority_deal",1=>"price",2=>"",),
 		"SET_BROWSER_TITLE" => "Y",
 		"SET_LAST_MODIFIED" => "N",
 		"SET_META_DESCRIPTION" => "Y",
@@ -74,10 +66,8 @@ $APPLICATION->SetTitle("Главная");
 		"SORT_BY2" => "SORT",
 		"SORT_ORDER1" => "DESC",
 		"SORT_ORDER2" => "ASC",
-		"STRICT_SECTION_CHECK" => "N",
-		"COMPONENT_TEMPLATE" => "slider"
-	),
-	false
+		"STRICT_SECTION_CHECK" => "N"
+	)
 );?><br>
  <?$APPLICATION->IncludeComponent(
 	"bitrix:main.include",
@@ -107,24 +97,39 @@ $APPLICATION->SetTitle("Главная");
 		"PATH" => "/include/property3.php"
 	)
 );?> <?$APPLICATION->IncludeComponent(
-	"bitrix:news.line",
-	"ads_cards",
-	Array(
+	"bitrix:news.line", 
+	"ads_cards", 
+	array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"CACHE_GROUPS" => "Y",
 		"CACHE_TIME" => "604800",
 		"CACHE_TYPE" => "A",
 		"COMPONENT_TEMPLATE" => "ads_cards",
 		"DETAIL_URL" => "#SITE_DIR#/advertisments/#ELEMENT_CODE#/",
-		"FIELD_CODE" => array(0=>"NAME",1=>"PREVIEW_TEXT",2=>"PREVIEW_PICTURE",3=>"DETAIL_TEXT",4=>"DETAIL_PICTURE",5=>"PROPERTY_price",6=>"PROPERTY_total_square",7=>"PROPERTY_floors_number",8=>"PROPERTY_bathrooms_number",9=>"PROPERTY_has_garage",),
-		"IBLOCKS" => array(),
+		"FIELD_CODE" => array(
+			0 => "NAME",
+			1 => "PREVIEW_TEXT",
+			2 => "PREVIEW_PICTURE",
+			3 => "DETAIL_TEXT",
+			4 => "DETAIL_PICTURE",
+			5 => "PROPERTY_price",
+			6 => "PROPERTY_total_square",
+			7 => "PROPERTY_floors_number",
+			8 => "PROPERTY_bathrooms_number",
+			9 => "PROPERTY_has_garage",
+			10 => "PROPERTY_rent_or_sale",
+			11 => "PROPERTY_object_type",
+		),
+		"IBLOCKS" => array(
+		),
 		"IBLOCK_TYPE" => "ads",
 		"NEWS_COUNT" => "9",
 		"SORT_BY1" => "ACTIVE_FROM",
 		"SORT_BY2" => "SORT",
 		"SORT_ORDER1" => "DESC",
 		"SORT_ORDER2" => "ASC"
-	)
+	),
+	false
 );?><br>
  <?$APPLICATION->IncludeComponent(
 	"bitrix:news.line",
@@ -167,24 +172,35 @@ $APPLICATION->SetTitle("Главная");
 	)
 );?><br>
  <?$APPLICATION->IncludeComponent(
-	"bitrix:news.line",
-	"agents",
-	Array(
+	"bitrix:news.line", 
+	"agents", 
+	array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"CACHE_GROUPS" => "Y",
 		"CACHE_TIME" => "604800",
 		"CACHE_TYPE" => "A",
 		"COMPONENT_TEMPLATE" => "agents",
 		"DETAIL_URL" => "",
-		"FIELD_CODE" => array(0=>"NAME",1=>"PREVIEW_TEXT",2=>"PREVIEW_PICTURE",3=>"DETAIL_TEXT",4=>"DETAIL_PICTURE",5=>"",),
-		"IBLOCKS" => array(),
+		"FIELD_CODE" => array(
+			0 => "NAME",
+			1 => "PREVIEW_TEXT",
+			2 => "PREVIEW_PICTURE",
+			3 => "DETAIL_TEXT",
+			4 => "DETAIL_PICTURE",
+			5 => "PROPERTY_facebook_link",
+			6 => "PROPERTY_twitter_link",
+			7 => "PROPERTY_linkedin_link",
+		),
+		"IBLOCKS" => array(
+		),
 		"IBLOCK_TYPE" => "agents",
 		"NEWS_COUNT" => "3",
 		"SORT_BY1" => "ACTIVE_FROM",
 		"SORT_BY2" => "SORT",
 		"SORT_ORDER1" => "DESC",
 		"SORT_ORDER2" => "ASC"
-	)
+	),
+	false
 );?><br>
  <br>
 <p>
