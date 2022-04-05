@@ -1,3 +1,3 @@
 <?
-$PERM["index.php"]["G7"]="R";
+$PERM["index.php"]["7"]="R";
 ?>
