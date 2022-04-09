@@ -109,6 +109,17 @@ define('SITE_TEMPLATE_PATH', '/local/templates/home'); #Содержит пут�
             </p>  
           </div>
           <div class="col-6 col-md-6 text-right">
+            <?if($USER->IsAuthorized()):?>
+                <a href="<?=$APPLICATION->GetCurPageParam("logout=yes&".bitrix_sessid_get(), array(
+                    "login",
+                    "logout",
+                    "register",
+                    "forgot_password",
+                    "change_password"));?>"
+                class="mr-3"><span class="text-black">Выход</span></a>
+            <?else:?>
+                <a href="/login/" class="mr-3"><span class="text-black">Авторизация</span></a>
+            <?endif;?>
             <?$APPLICATION->IncludeComponent(
               "bitrix:main.include",
               "",
@@ -225,16 +236,16 @@ define('SITE_TEMPLATE_PATH', '/local/templates/home'); #Содержит пут�
             <h1 class="mb-2"><?$APPLICATION->ShowTitle();?></h1>
             <div>
               <?$APPLICATION->IncludeComponent(
-	"bitrix:breadcrumb", 
-	"nav2", 
-	array(
-		"PATH" => "",
-		"SITE_ID" => "s1",
-		"START_FROM" => "0",
-		"COMPONENT_TEMPLATE" => "nav2"
-	),
-	false
-);?>
+                "bitrix:breadcrumb", 
+                "nav2", 
+                array(
+                  "PATH" => "",
+                  "SITE_ID" => "s1",
+                  "START_FROM" => "0",
+                  "COMPONENT_TEMPLATE" => "nav2"
+                ),
+                false
+              );?>
               <!-- <a href="index.html">Home</a> <span class="mx-2 text-white">&bullet;</span> <strong class="text-white">About</strong> -->
             </div>
           </div>

@@ -126,6 +126,7 @@ SITE_TEMPLATE_PATH;
     $asset->addJs(SITE_TEMPLATE_PATH . '/js/bootstrap-datepicker.min.js');
     $asset->addJs(SITE_TEMPLATE_PATH . '/js/aos.js');
     $asset->addJs(SITE_TEMPLATE_PATH . '/js/main.js');
+    $asset->addJs(SITE_TEMPLATE_PATH . '/js/send_new_password.js');
   ?>
   </body>
 </html>
