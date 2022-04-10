@@ -8,7 +8,7 @@ $APPLICATION->SetTitle("Мои объявления");
 	);
 $APPLICATION->IncludeComponent(
 	"bitrix:news", 
-	"my_ads_page", 
+	"ads_page", 
 	array(
 		"ADD_ELEMENT_CHAIN" => "Y",
 		"ADD_SECTIONS_CHAIN" => "Y",
@@ -23,7 +23,7 @@ $APPLICATION->IncludeComponent(
 		"CACHE_TIME" => "604800",
 		"CACHE_TYPE" => "A",
 		"CHECK_DATES" => "Y",
-		"COMPONENT_TEMPLATE" => "my_ads_page",
+		"COMPONENT_TEMPLATE" => "ads_page",
 		"DETAIL_ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"DETAIL_DISPLAY_BOTTOM_PAGER" => "Y",
 		"DETAIL_DISPLAY_TOP_PAGER" => "N",

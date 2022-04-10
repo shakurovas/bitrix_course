@@ -115,7 +115,7 @@ $this->setFrameMode(true);
 	<div class="row mb-5">
 		<div class="col-12">
 		<div class="site-section-title">
-			<h2><?=GetMessage('NEW_OBJECTS');?></h2>
+			<h2><?if($APPLICATION->GetCurPage() == '/advertisments/') echo GetMessage('NEW_OBJECTS'); elseif($APPLICATION->GetCurPage() == '/sellers-personal-account/my-ads/') echo GetMessage('MY_ADS');?></h2>
 		</div>
 		</div>
 	</div>

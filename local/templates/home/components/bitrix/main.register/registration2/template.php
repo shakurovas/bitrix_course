@@ -122,10 +122,11 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)
 						<?if($arResult["USER_PROPERTIES"]["SHOW"] == "Y"):?>
 							<?foreach ($arResult["USER_PROPERTIES"]["DATA"] as $FIELD_NAME => $arUserField):?>
 								<label class="font-weight-bold"><?=$arUserField["EDIT_FORM_LABEL"]?>:<?if ($arUserField["MANDATORY"]=="Y"):?><span class="mf-req">*</span><?endif;?></label>
-										<?$APPLICATION->IncludeComponent(
+										<div><?$APPLICATION->IncludeComponent(
 											"bitrix:system.field.edit",
 											$arUserField["USER_TYPE"]["USER_TYPE_ID"],
 											array("bVarsFromForm" => $arResult["bVarsFromForm"], "arUserField" => $arUserField, "form_name" => "regform"), null, array("HIDE_ICONS"=>"Y"));?>
+										</div>
 							<?endforeach;?>
 						<?endif;?>
 						</div>

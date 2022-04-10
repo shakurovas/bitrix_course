@@ -1,7 +1,10 @@
 <?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?><?
-ShowMessage($arParams["~AUTH_RESULT"]);
-
-$arResult['AUTH_AUTH_URL'] = '/login/';
+if(!empty($arParams["~AUTH_RESULT"])):?>
+	<div class="alert alert-success">
+		<?ShowMessage($arParams["~AUTH_RESULT"]);?>
+	</div>
+<?endif;?>
+<?$arResult['AUTH_AUTH_URL'] = '/login/';
 // echo '<pre>';
 // print_r($arResult);
 // echo '</pre>';
