@@ -1,0 +1,10 @@
+<?
+$PERM["worker_profile.php"]["2"]="D";
+$PERM["worker_profile.php"]["3"]="D";
+$PERM["worker_profile.php"]["4"]="D";
+$PERM["worker_profile.php"]["8"]="R";
+$PERM["worker_profile.php"]["7"]="D";
+$PERM["worker_profile.php"]["6"]="D";
+$PERM["worker_profile.php"]["5"]="R";
+$PERM["worker_profile.php"]["*"]="D";
+?>

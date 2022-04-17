@@ -1,0 +1,93 @@
+2022-04-17 06:21:39 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' (0)
+/home/bitrix/www/local/templates/exam1/components/bitrix/menu/horizontal_multilevel_menu/template.php:7
+#0: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#1: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#2: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#3: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:386
+#4: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#5: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#6: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#7: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#8: CAllMain->IncludeComponent(string, string, array)
+	/home/bitrix/www/local/templates/exam1/header.php:80
+#9: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#10: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#11: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#12: require(string)
+	/home/bitrix/www/s2/rew/index.php:2
+----------
+
+2022-04-17 06:36:36 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+array_push() expects parameter 1 to be array, string given (0)
+/home/bitrix/www/local/templates/exam1/components/bitrix/menu/horizontal_multilevel_menu/template.php:37
+#0: array_push(string, string)
+	/home/bitrix/www/local/templates/exam1/components/bitrix/menu/horizontal_multilevel_menu/template.php:37
+#1: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:790
+#2: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#3: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#4: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#5: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:386
+#6: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#7: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#8: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#9: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#10: CAllMain->IncludeComponent(string, string, array)
+	/home/bitrix/www/local/templates/exam1/header.php:80
+#11: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#12: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#13: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#14: require(string)
+	/home/bitrix/www/s2/rew/index.php:2
+----------
+
+2022-04-17 07:12:45 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:53
+#2: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#3: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#4: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#5: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#6: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/footer.php:33
+#7: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_before.php:93
+#8: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:2
+#9: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#10: require(string)
+	/home/bitrix/www/s2/products/index.php:4
+----------
+

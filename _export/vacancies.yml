@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<source creation-time="2022-04-02 08:39:18 GMT+0000" host="">
+  <vacancies>
+    <vacancy>
+      <url>178.154.206.90:443</url>
+      <creation-date>2010-05-01 00:00:00 GMT+0000</creation-date>
+      <salary></salary>
+      <job-name></job-name>
+      <description></description>
+      <company>
+        <name></name>
+        <description></description>
+        <logo/>
+        <site>178.154.206.90:443</site>
+        <hr-agency>true</hr-agency>
+      </company>
+    </vacancy>
+    <vacancy>
+      <url>178.154.206.90:443</url>
+      <creation-date>2010-05-01 00:00:00 GMT+0000</creation-date>
+      <salary></salary>
+      <job-name></job-name>
+      <description></description>
+      <company>
+        <name></name>
+        <description></description>
+        <logo/>
+        <site>178.154.206.90:443</site>
+        <hr-agency>true</hr-agency>
+      </company>
+    </vacancy>
+    <vacancy>
+      <url>178.154.206.90:443</url>
+      <creation-date>2010-05-01 00:00:00 GMT+0000</creation-date>
+      <salary></salary>
+      <job-name></job-name>
+      <description></description>
+      <company>
+        <name></name>
+        <description></description>
+        <logo/>
+        <site>178.154.206.90:443</site>
+        <hr-agency>true</hr-agency>
+      </company>
+    </vacancy>
+  </vacancies>
+</source>
