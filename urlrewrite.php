@@ -32,6 +32,7 @@ $arUrlRewrite=array (
     'PATH' => '/advertisments/index.php',
     'SORT' => 100,
   ),
+<<<<<<< HEAD
   32 => 
   array (
     'CONDITION' => '#^/s2/services/#',
@@ -40,6 +41,8 @@ $arUrlRewrite=array (
     'PATH' => '/s2/services/index.php',
     'SORT' => 100,
   ),
+=======
+>>>>>>> ba80bd6c49d01f342bc61bc3f89695c85adcec18
   0 => 
   array (
     'CONDITION' => '#^/services/#',
@@ -56,6 +59,7 @@ $arUrlRewrite=array (
     'PATH' => '/products/index.php',
     'SORT' => 100,
   ),
+<<<<<<< HEAD
   33 => 
   array (
     'CONDITION' => '#^/s2/news/#',
@@ -72,6 +76,8 @@ $arUrlRewrite=array (
     'PATH' => '/s2/rew/index.php',
     'SORT' => 100,
   ),
+=======
+>>>>>>> ba80bd6c49d01f342bc61bc3f89695c85adcec18
   2 => 
   array (
     'CONDITION' => '#^/news/#',
