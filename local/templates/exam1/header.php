@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 use Bitrix\Main\Page\Asset;
 if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die(); #Данная строчка указывается в начале файла для секретности - чтобы нельзя было открыть данный файл напрямую из браузера, без подключения ядра Битрикса
@@ -279,6 +280,3 @@ define('SITE_TEMPLATE_PATH', '/local/templates/exam1'); #Содержит пут
 		                <!-- /afisha box -->
                                 
                     <?endif;?>              
-                   
-                    
-                
