@@ -1,1 +1,1 @@
-this is text for subitem "events shedule"
+this is text for subitem "Events Shedule"

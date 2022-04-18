@@ -60,11 +60,7 @@ if($arResult["FORM_TYPE"] == "login")
 				<?endif;?>
 				
 				<div class="frm-row">
-					<a href="<?echo $APPLICATION->GetCurPageParam("forgot_password=yes", array(
-							"login",
-							"logout",
-							"forgot_password",
-							"change_password"));?>" class="btn-forgot"><?=GetMessage("AUTH_FORGOT_PASSWORD_2")?></a>
+					<a href="<?=$arResult["AUTH_FORGOT_PASSWORD_URL"]?>" class="btn-forgot"><?=GetMessage("AUTH_FORGOT_PASSWORD_2")?></a>
 				</div>
 				<div class="frm-row">
 					<div class="frm-chk">

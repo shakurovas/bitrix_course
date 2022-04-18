@@ -74,21 +74,24 @@ define('SITE_TEMPLATE_PATH', '/local/templates/exam1'); #Содержит пут
         <!-- /header -->
         <!-- nav -->
         <?$APPLICATION->IncludeComponent(
-            "bitrix:menu",
-            "horizontal_multilevel_menu",
-            Array(
-                "ALLOW_MULTI_SELECT" => "Y",
-                "CHILD_MENU_TYPE" => "left",
-                "DELAY" => "N",
-                "MAX_LEVEL" => "3",
-                "MENU_CACHE_GET_VARS" => array(0=>"",),
-                "MENU_CACHE_TIME" => "604800",
-                "MENU_CACHE_TYPE" => "Y",
-                "MENU_CACHE_USE_GROUPS" => "Y",
-                "ROOT_MENU_TYPE" => "top",
-                "USE_EXT" => "N"
-            )
-        );?>
+	"bitrix:menu", 
+	"horizontal_multilevel_menu", 
+	array(
+		"ALLOW_MULTI_SELECT" => "Y",
+		"CHILD_MENU_TYPE" => "left",
+		"DELAY" => "N",
+		"MAX_LEVEL" => "3",
+		"MENU_CACHE_GET_VARS" => array(
+		),
+		"MENU_CACHE_TIME" => "604800",
+		"MENU_CACHE_TYPE" => "Y",
+		"MENU_CACHE_USE_GROUPS" => "Y",
+		"ROOT_MENU_TYPE" => "top",
+		"USE_EXT" => "Y",
+		"COMPONENT_TEMPLATE" => "horizontal_multilevel_menu"
+	),
+	false
+);?>
         <!-- /nav -->
         <!-- breadcrumbs -->
         <?if($APPLICATION->GetCurPage(false) !== '/s2/'): ?>
