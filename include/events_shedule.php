@@ -1,0 +1,1 @@
+this is text for subitem "events shedule"

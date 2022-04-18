@@ -1,6 +1,6 @@
 <?php
 $arUrlRewrite=array (
-  25 => 
+  31 => 
   array (
     'CONDITION' => '#^/sellers-personal-account/my-ads/#',
     'RULE' => '',
@@ -16,7 +16,7 @@ $arUrlRewrite=array (
     'PATH' => '/about-service/vacancies/index.php',
     'SORT' => 100,
   ),
-  23 => 
+  30 => 
   array (
     'CONDITION' => '#^/about-service/news/#',
     'RULE' => '',
@@ -24,12 +24,20 @@ $arUrlRewrite=array (
     'PATH' => '/about-service/news/index.php',
     'SORT' => 100,
   ),
-  26 => 
+  29 => 
   array (
     'CONDITION' => '#^/advertisments/#',
     'RULE' => '',
     'ID' => 'bitrix:news',
     'PATH' => '/advertisments/index.php',
+    'SORT' => 100,
+  ),
+  32 => 
+  array (
+    'CONDITION' => '#^/s2/services/#',
+    'RULE' => '',
+    'ID' => 'bitrix:catalog',
+    'PATH' => '/s2/services/index.php',
     'SORT' => 100,
   ),
   0 => 
@@ -46,6 +54,22 @@ $arUrlRewrite=array (
     'RULE' => '',
     'ID' => 'bitrix:catalog',
     'PATH' => '/products/index.php',
+    'SORT' => 100,
+  ),
+  33 => 
+  array (
+    'CONDITION' => '#^/s2/news/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/s2/news/index.php',
+    'SORT' => 100,
+  ),
+  34 => 
+  array (
+    'CONDITION' => '#^/s2/rew/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/s2/rew/index.php',
     'SORT' => 100,
   ),
   2 => 

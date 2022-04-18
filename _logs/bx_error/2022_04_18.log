@@ -1,0 +1,11 @@
+2022-04-18 06:04:22 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected '<<' (T_SL), expecting ')' (0)
+/home/bitrix/www/local/templates/exam1/header.php:66
+#0: require
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#1: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#2: require(string)
+	/home/bitrix/www/s2/news/index.php:2
+----------
+

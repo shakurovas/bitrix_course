@@ -1,0 +1,701 @@
+2022-04-16 09:44:25 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+include(/home/bitrix/www/company/.access.php): failed to open stream: No such file or directory (0)
+/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:87
+#0: include
+	/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:87
+#1: GetAccessArrTmp(string)
+	/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:269
+#2: require(string)
+	/home/bitrix/www/bitrix/admin/fileman_access.php:3
+----------
+
+2022-04-16 09:44:25 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+include(): Failed opening '/home/bitrix/www/company/.access.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') (0)
+/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:87
+#0: include
+	/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:87
+#1: GetAccessArrTmp(string)
+	/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:269
+#2: require(string)
+	/home/bitrix/www/bitrix/admin/fileman_access.php:3
+----------
+
+2022-04-16 09:44:45 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+include(/home/bitrix/www/company/.access.php): failed to open stream: No such file or directory (0)
+/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:87
+#0: include
+	/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:87
+#1: GetAccessArrTmp(string)
+	/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:105
+#2: require(string)
+	/home/bitrix/www/bitrix/admin/fileman_access.php:3
+----------
+
+2022-04-16 09:44:45 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+include(): Failed opening '/home/bitrix/www/company/.access.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') (0)
+/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:87
+#0: include
+	/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:87
+#1: GetAccessArrTmp(string)
+	/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:105
+#2: require(string)
+	/home/bitrix/www/bitrix/admin/fileman_access.php:3
+----------
+
+2022-04-16 09:45:54 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+include(/home/bitrix/www/s2/company/.access.php): failed to open stream: No such file or directory (0)
+/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:87
+#0: include
+	/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:87
+#1: GetAccessArrTmp(string)
+	/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:269
+#2: require(string)
+	/home/bitrix/www/bitrix/admin/fileman_access.php:3
+----------
+
+2022-04-16 09:45:54 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+include(): Failed opening '/home/bitrix/www/s2/company/.access.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') (0)
+/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:87
+#0: include
+	/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:87
+#1: GetAccessArrTmp(string)
+	/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:269
+#2: require(string)
+	/home/bitrix/www/bitrix/admin/fileman_access.php:3
+----------
+
+2022-04-16 09:45:58 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+include(/home/bitrix/www/s2/company/.access.php): failed to open stream: No such file or directory (0)
+/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:87
+#0: include
+	/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:87
+#1: GetAccessArrTmp(string)
+	/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:105
+#2: require(string)
+	/home/bitrix/www/bitrix/admin/fileman_access.php:3
+----------
+
+2022-04-16 09:45:58 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+include(): Failed opening '/home/bitrix/www/s2/company/.access.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') (0)
+/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:87
+#0: include
+	/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:87
+#1: GetAccessArrTmp(string)
+	/home/bitrix/www/bitrix/modules/fileman/admin/fileman_access.php:105
+#2: require(string)
+	/home/bitrix/www/bitrix/admin/fileman_access.php:3
+----------
+
+2022-04-16 10:50:08 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/components/bitrix/main.map/component.php:75
+#1: GetTreeRecursive(string, integer, integer, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/main.map/component.php:166
+#2: GetTreeRecursive(string, integer, integer, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/main.map/component.php:36
+#3: GetTree(string, integer, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/main.map/component.php:220
+#4: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#5: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#6: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array)
+	/home/bitrix/www/404.php:12
+#8: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:4
+----------
+
+2022-04-16 13:24:13 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Illegal string offset 'SRC' (0)
+/home/bitrix/www/local/templates/exam1/components/bitrix/news/news/bitrix/news.detail/.default/template.php:33
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#3: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#4: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/bitrix/components/bitrix/news.detail/component.php:439
+#5: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#6: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#7: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#8: CAllMain->IncludeComponent(string, string, array, object)
+	/home/bitrix/www/local/templates/exam1/components/bitrix/news/news/detail.php:16
+#9: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:790
+#10: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#11: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#12: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#13: CBitrixComponent->includeComponentTemplate(string)
+	/home/bitrix/www/bitrix/components/bitrix/news/component.php:216
+#14: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#15: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#16: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#17: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/s2/rew/index.php:162
+#18: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:160
+#19: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+
+2022-04-16 16:55:37 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected ';', expecting ')' (0)
+/home/bitrix/www/local/templates/exam1/components/bitrix/news/news/bitrix/news.detail/.default/template.php:21
+#0: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#1: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#2: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#3: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/bitrix/components/bitrix/news.detail/component.php:439
+#4: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#5: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#6: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, object)
+	/home/bitrix/www/local/templates/exam1/components/bitrix/news/news/detail.php:16
+#8: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:790
+#9: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#10: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#11: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#12: CBitrixComponent->includeComponentTemplate(string)
+	/home/bitrix/www/bitrix/components/bitrix/news/component.php:216
+#13: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#14: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#15: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#16: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/s2/rew/index.php:172
+#17: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:160
+#18: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+
+2022-04-16 16:55:58 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected ';', expecting ')' (0)
+/home/bitrix/www/local/templates/exam1/components/bitrix/news/news/bitrix/news.detail/.default/template.php:21
+#0: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#1: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#2: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#3: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/bitrix/components/bitrix/news.detail/component.php:439
+#4: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#5: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#6: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, object)
+	/home/bitrix/www/local/templates/exam1/components/bitrix/news/news/detail.php:16
+#8: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:790
+#9: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#10: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#11: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#12: CBitrixComponent->includeComponentTemplate(string)
+	/home/bitrix/www/bitrix/components/bitrix/news/component.php:216
+#13: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#14: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#15: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#16: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/s2/rew/index.php:172
+#17: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:160
+#18: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+
+2022-04-16 16:56:18 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected ';', expecting ')' (0)
+/home/bitrix/www/local/templates/exam1/components/bitrix/news/news/bitrix/news.detail/.default/template.php:21
+#0: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#1: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#2: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#3: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/bitrix/components/bitrix/news.detail/component.php:439
+#4: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#5: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#6: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, object)
+	/home/bitrix/www/local/templates/exam1/components/bitrix/news/news/detail.php:16
+#8: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:790
+#9: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#10: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#11: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#12: CBitrixComponent->includeComponentTemplate(string)
+	/home/bitrix/www/bitrix/components/bitrix/news/component.php:216
+#13: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#14: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#15: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#16: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/s2/rew/index.php:172
+#17: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:160
+#18: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+
+2022-04-16 16:57:21 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected ';', expecting ')' (0)
+/home/bitrix/www/local/templates/exam1/components/bitrix/news/news/bitrix/news.detail/.default/template.php:21
+#0: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#1: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#2: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#3: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/bitrix/components/bitrix/news.detail/component.php:439
+#4: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#5: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#6: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, object)
+	/home/bitrix/www/local/templates/exam1/components/bitrix/news/news/detail.php:16
+#8: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:790
+#9: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#10: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#11: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#12: CBitrixComponent->includeComponentTemplate(string)
+	/home/bitrix/www/bitrix/components/bitrix/news/component.php:216
+#13: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#14: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#15: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#16: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/s2/rew/index.php:172
+#17: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:160
+#18: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+
+2022-04-16 16:57:43 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected '?>', expecting ')' (0)
+/home/bitrix/www/local/templates/exam1/components/bitrix/news/news/bitrix/news.detail/.default/template.php:21
+#0: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#1: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#2: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#3: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/bitrix/components/bitrix/news.detail/component.php:439
+#4: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#5: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#6: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, object)
+	/home/bitrix/www/local/templates/exam1/components/bitrix/news/news/detail.php:16
+#8: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:790
+#9: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#10: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#11: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#12: CBitrixComponent->includeComponentTemplate(string)
+	/home/bitrix/www/bitrix/components/bitrix/news/component.php:216
+#13: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#14: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#15: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#16: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/s2/rew/index.php:172
+#17: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:160
+#18: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+
+2022-04-16 16:58:26 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected '$arResult' (T_VARIABLE), expecting ')' (0)
+/home/bitrix/www/local/templates/exam1/components/bitrix/news/news/bitrix/news.detail/.default/template.php:21
+#0: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#1: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#2: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#3: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/bitrix/components/bitrix/news.detail/component.php:439
+#4: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#5: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#6: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, object)
+	/home/bitrix/www/local/templates/exam1/components/bitrix/news/news/detail.php:16
+#8: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:790
+#9: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#10: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#11: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#12: CBitrixComponent->includeComponentTemplate(string)
+	/home/bitrix/www/bitrix/components/bitrix/news/component.php:216
+#13: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#14: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#15: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#16: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/s2/rew/index.php:172
+#17: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:160
+#18: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+
+2022-04-16 17:09:36 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [Error] 
+Using $this when not in object context (0)
+/home/bitrix/www/bitrix/modules/main/classes/general/main.php:466
+#0: CAllMain::SetTitle(string)
+	/home/bitrix/www/local/templates/exam1/components/bitrix/news/news/bitrix/news.detail/.default/template.php:21
+#1: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:790
+#2: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#3: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#4: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#5: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/bitrix/components/bitrix/news.detail/component.php:439
+#6: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#7: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#8: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#9: CAllMain->IncludeComponent(string, string, array, object)
+	/home/bitrix/www/local/templates/exam1/components/bitrix/news/news/detail.php:16
+#10: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:790
+#11: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#12: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#13: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#14: CBitrixComponent->includeComponentTemplate(string)
+	/home/bitrix/www/bitrix/components/bitrix/news/component.php:216
+#15: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#16: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#17: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#18: CAllMain->IncludeComponent(string, string, array)
+	/home/bitrix/www/s2/rew/index.php:8
+#19: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:160
+#20: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+
+2022-04-16 18:34:47 - Host: 178.154.206.90:80 - FATAL - [ErrorException] E_ERROR
+Cannot redeclare mb_ucfirst() (previously declared in /home/bitrix/www/local/templates/exam1/components/bitrix/news/news/bitrix/news.list/.default/template.php:27) (0)
+/home/bitrix/www/local/templates/exam1/components/bitrix/news/news/bitrix/news.list/.default/template.php:27
+----------
+
+2022-04-16 19:33:34 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) (0)
+/home/bitrix/www/local/templates/exam1/components/bitrix/news/news/bitrix/news.detail/.default/template.php:21
+#0: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#1: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#2: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#3: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/bitrix/components/bitrix/news.detail/component.php:439
+#4: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#5: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#6: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, object)
+	/home/bitrix/www/local/templates/exam1/components/bitrix/news/news/detail.php:16
+#8: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:790
+#9: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#10: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#11: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#12: CBitrixComponent->includeComponentTemplate(string)
+	/home/bitrix/www/bitrix/components/bitrix/news/component.php:216
+#13: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#14: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#15: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#16: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/s2/rew/index.php:102
+#17: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:160
+#18: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+
+2022-04-16 19:57:31 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:53
+#2: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#3: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#4: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#5: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#6: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/footer.php:33
+#7: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_before.php:93
+#8: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:2
+#9: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#10: require(string)
+	/home/bitrix/www/s2/products/index.php:4
+----------
+
+2022-04-16 20:11:36 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected ':' (0)
+/home/bitrix/www/local/templates/exam1/components/bitrix/news/news/bitrix/news.detail/.default/template.php:35
+#0: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#1: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#2: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#3: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/bitrix/components/bitrix/news.detail/component.php:439
+#4: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#5: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#6: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, object)
+	/home/bitrix/www/local/templates/exam1/components/bitrix/news/news/detail.php:16
+#8: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:790
+#9: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#10: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#11: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#12: CBitrixComponent->includeComponentTemplate(string)
+	/home/bitrix/www/bitrix/components/bitrix/news/component.php:216
+#13: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#14: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#15: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#16: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/s2/rew/index.php:102
+#17: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:160
+#18: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+
+2022-04-16 20:17:38 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected ';', expecting ')' (0)
+/home/bitrix/www/local/templates/exam1/components/bitrix/news/news/bitrix/news.list/.default/template.php:39
+#0: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#1: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#2: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#3: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/bitrix/components/bitrix/news.list/component.php:479
+#4: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#5: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#6: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, object)
+	/home/bitrix/www/local/templates/exam1/components/bitrix/news/news/news.php:56
+#8: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:790
+#9: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#10: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#11: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#12: CBitrixComponent->includeComponentTemplate(string)
+	/home/bitrix/www/bitrix/components/bitrix/news/component.php:216
+#13: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#14: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#15: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#16: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/s2/rew/index.php:102
+----------
+
+2022-04-16 20:21:49 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:53
+#2: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#3: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#4: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#5: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#6: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/footer.php:33
+#7: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_before.php:93
+#8: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:2
+#9: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#10: require(string)
+	/home/bitrix/www/s2/products/index.php:4
+----------
+
+2022-04-16 20:31:53 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/bitrix/www/bitrix/templates/furniture_pale-blue/header.php:62
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/services/index.php:2
+----------
+
+2022-04-16 20:39:21 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:53
+#2: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#3: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#4: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#5: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#6: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/footer.php:33
+#7: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_before.php:93
+#8: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:2
+#9: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#10: require(string)
+	/home/bitrix/www/s2/products/index.php:4
+----------
+

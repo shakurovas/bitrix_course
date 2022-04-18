@@ -12,10 +12,10 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 					<h2>Наши контакты для связи:</h2>
 				</div>
 				<p>
-					Телефон: +2 102 3923 (можно писать в мессенджеры)
+					 Телефон: +2 102 3923 3922 (можно писать в мессенджеры)
 				</p>
 				<p>
-					Email: <a href="mailto:info@domain.com">info@domain.com</a>
+					 Email: <a href="mailto:info@domain.com">info@domain.com</a>
 				</p>
 			</div>
 		</div>

@@ -1,0 +1,49 @@
+94adbb5 HEAD@{0}: reset: moving to HEAD~5
+f286bcd HEAD@{1}: reset: moving to HEAD~4
+bf352e6 HEAD@{2}: reset: moving to HEAD~1
+9e8b805 HEAD@{3}: reset: moving to HEAD~5
+96af623 HEAD@{4}: reset: moving to HEAD~1
+e34fdc7 HEAD@{5}: commit: ndsjnewf
+96af623 HEAD@{6}: commit: в .gitignore добавлен mysql_debug.sql, т. к. он большой и не даёт отправить изменения
+9d8d826 HEAD@{7}: reset: moving to HEAD~1
+9680ba0 HEAD@{8}: commit: в .gitignore добавлен mysql_debug.sql, т. к. он большой и не даёт отправить изменения
+9d8d826 HEAD@{9}: reset: moving to HEAD@{23}
+ba80bd6 HEAD@{10}: reset: moving to HEAD~
+9d8d826 HEAD@{11}: reset: moving to HEAD~
+346823e HEAD@{12}: reset: moving to HEAD~
+3d49540 HEAD@{13}: reset: moving to HEAD~
+852ca15 HEAD@{14}: reset: moving to HEAD~
+e6e1c72 HEAD@{15}: reset: moving to HEAD~
+b6d3f1f HEAD@{16}: reset: moving to HEAD~
+3263d02 HEAD@{17}: reset: moving to HEAD~
+af11021 HEAD@{18}: reset: moving to HEAD~
+e20f73f HEAD@{19}: reset: moving to HEAD~
+dff7d55 HEAD@{20}: commit: Файл mysql_debug.sql внесён в .gitignore, так как слишком много весит и не даёт отправить изменения
+e20f73f HEAD@{21}: commit: Выполнен первый билет
+af11021 HEAD@{22}: reset: moving to HEAD~1
+b7e6c4c HEAD@{23}: commit: Выполнен первый билет
+af11021 HEAD@{24}: reset: moving to HEAD~1
+1583ef0 HEAD@{25}: commit: Выполнен первый билет
+af11021 HEAD@{26}: commit: Выполнен первый билет
+3263d02 HEAD@{27}: commit: Выполнен первый билет
+b6d3f1f HEAD@{28}: commit: Выполнен первый билет
+e6e1c72 HEAD@{29}: commit: Выполнен первый билет
+852ca15 HEAD@{30}: commit: Выполнен первый билет
+3d49540 HEAD@{31}: commit: Выполнен первый билет
+346823e HEAD@{32}: commit: Выполнен первый билет
+9d8d826 HEAD@{33}: commit: Выполнен первый билет
+ba80bd6 HEAD@{34}: commit: - регистрация теперь осуществляется из раздела login, auth убрала и теперь в "моих объявлениях" используется тот же шаблон, что и в просто "объявлениях", только с фильтром и другим заголовком
+d9c7181 HEAD@{35}: commit: реализована авторизация и регистрация пользователей, внедрена вёрстка форм
+5e1fc1c HEAD@{36}: commit: внедрена форма обратной связи, убрано поле "Тема письма", создана включаемая область для контактов компании справа на странице
+9e8b805 HEAD@{37}: commit: внедрены новости и мои объявления, для последних установлен фильтр по id создателя
+bf352e6 HEAD@{38}: commit: исправлены ошибки, добавлен перевод в lang-файлы, сделан Эрмитаж для компонентов
+9e349cd HEAD@{39}: commit: змнено условие проверки, главная ли это страница
+ba1cdd7 HEAD@{40}: commit: модуль вакансий перенесён в local/
+cf0c4e5 HEAD@{41}: commit: установлен модуль вакансий, предварительно были добавлены нужные поля в инфоблок вакансий
+f286bcd HEAD@{42}: commit (amend): - добавлены новые объявления
+e380236 HEAD@{43}: commit: - добавлены новые объявления
+c79b3dc HEAD@{44}: commit: - введена проверка страницы (главная или все остальные, в зависимости от этого разное наполнение в хэдере)
+eaabd39 HEAD@{45}: commit: - добавлена языковая константа в атрибут lang тега html
+bdc6512 HEAD@{46}: commit: the included areas and components were placed and/or updated, infoblocks "agents" and "services" were created
+0193319 HEAD@{47}: commit: the layout was integrated
+94adbb5 HEAD@{48}: initial pull

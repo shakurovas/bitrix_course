@@ -1,0 +1,188 @@
+2022-04-14 09:48:17 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected '<=' (T_IS_SMALLER_OR_EQUAL) (0)
+/home/bitrix/www/local/templates/exam1/header.php:47
+#0: require
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#1: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#2: require(string)
+	/home/bitrix/www/s2/index.php:2
+----------
+
+2022-04-14 09:48:34 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected '<' (0)
+/home/bitrix/www/local/templates/exam1/header.php:47
+#0: require
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#1: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#2: require(string)
+	/home/bitrix/www/s2/index.php:2
+----------
+
+2022-04-14 10:46:26 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+opendir(/home/bitrix/www/bitrix/components/bitrix/menu.sections/templates): failed to open dir: No such file or directory (0)
+/home/bitrix/www/bitrix/modules/main/classes/general/component_util.php:1089
+#0: opendir(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_util.php:1089
+#1: CComponentUtil::GetTemplatesList(string, string)
+	/home/bitrix/www/bitrix/modules/fileman/classes/general/component_params_manager.php:99
+#2: CComponentParamsManager::GetComponentProperties(string, string, string, NULL)
+	/home/bitrix/www/bitrix/modules/fileman/classes/general/component_params_manager.php:64
+#3: CComponentParamsManager::ProcessRequest()
+	/home/bitrix/www/bitrix/modules/fileman/admin/fileman_component_params.php:13
+#4: require(string)
+	/home/bitrix/www/bitrix/admin/fileman_component_params.php:1
+----------
+
+2022-04-14 10:46:31 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+opendir(/home/bitrix/www/bitrix/components/bitrix/menu.sections/templates): failed to open dir: No such file or directory (0)
+/home/bitrix/www/bitrix/modules/main/classes/general/component_util.php:1089
+#0: opendir(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_util.php:1089
+#1: CComponentUtil::GetTemplatesList(string, string)
+	/home/bitrix/www/bitrix/modules/fileman/classes/general/component_params_manager.php:99
+#2: CComponentParamsManager::GetComponentProperties(string, string, string, NULL)
+	/home/bitrix/www/bitrix/modules/fileman/classes/general/component_params_manager.php:64
+#3: CComponentParamsManager::ProcessRequest()
+	/home/bitrix/www/bitrix/modules/fileman/admin/fileman_component_params.php:13
+#4: require(string)
+	/home/bitrix/www/bitrix/admin/fileman_component_params.php:1
+----------
+
+2022-04-14 10:51:02 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+opendir(/home/bitrix/www/bitrix/components/bitrix/menu.sections/templates): failed to open dir: No such file or directory (0)
+/home/bitrix/www/bitrix/modules/main/classes/general/component_util.php:1089
+#0: opendir(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_util.php:1089
+#1: CComponentUtil::GetTemplatesList(string, string)
+	/home/bitrix/www/bitrix/modules/fileman/classes/general/component_params_manager.php:99
+#2: CComponentParamsManager::GetComponentProperties(string, string, string, array)
+	/home/bitrix/www/bitrix/modules/fileman/classes/general/component_params_manager.php:64
+#3: CComponentParamsManager::ProcessRequest()
+	/home/bitrix/www/bitrix/modules/fileman/admin/fileman_component_params.php:13
+#4: require(string)
+	/home/bitrix/www/bitrix/admin/fileman_component_params.php:1
+----------
+
+2022-04-14 10:51:21 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+opendir(/home/bitrix/www/bitrix/components/bitrix/menu.sections/templates): failed to open dir: No such file or directory (0)
+/home/bitrix/www/bitrix/modules/main/classes/general/component_util.php:1089
+#0: opendir(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_util.php:1089
+#1: CComponentUtil::GetTemplatesList(string, string)
+	/home/bitrix/www/bitrix/modules/fileman/classes/general/component_params_manager.php:99
+#2: CComponentParamsManager::GetComponentProperties(string, string, string, array)
+	/home/bitrix/www/bitrix/modules/fileman/classes/general/component_params_manager.php:64
+#3: CComponentParamsManager::ProcessRequest()
+	/home/bitrix/www/bitrix/modules/fileman/admin/fileman_component_params.php:13
+#4: require(string)
+	/home/bitrix/www/bitrix/admin/fileman_component_params.php:1
+----------
+
+2022-04-14 13:58:25 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected 'endif' (T_ENDIF) (0)
+/home/bitrix/www/local/templates/exam1/components/bitrix/news.list/reviews_list/template.php:49
+#0: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#1: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#2: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#3: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/bitrix/components/bitrix/news.list/component.php:479
+#4: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#5: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/s2/rew/index.php:63
+----------
+
+2022-04-14 13:58:31 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected 'endif' (T_ENDIF) (0)
+/home/bitrix/www/local/templates/exam1/components/bitrix/news.list/reviews_list/template.php:49
+#0: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#1: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#2: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#3: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/bitrix/components/bitrix/news.list/component.php:479
+#4: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#5: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/s2/rew/index.php:63
+----------
+
+2022-04-14 13:59:35 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected '=', expecting variable (T_VARIABLE) or '{' or '$' (0)
+/home/bitrix/www/local/templates/exam1/components/bitrix/news.list/reviews_list/template.php:41
+#0: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#1: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#2: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#3: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/bitrix/components/bitrix/news.list/component.php:479
+#4: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#5: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/s2/rew/index.php:63
+----------
+
+2022-04-14 13:59:51 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected 'endif' (T_ENDIF) (0)
+/home/bitrix/www/local/templates/exam1/components/bitrix/news.list/reviews_list/template.php:49
+#0: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:885
+#1: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:775
+#2: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:716
+#3: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/bitrix/components/bitrix/news.list/component.php:479
+#4: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#5: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:684
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/s2/rew/index.php:63
+----------
+
+2022-04-14 14:45:20 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected 'endif' (T_ENDIF), expecting end of file (0)
+/home/bitrix/www/local/templates/exam1/header.php:330
+#0: require
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#1: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#2: require(string)
+	/home/bitrix/www/s2/rew/index.php:2
+----------
+
+2022-04-14 14:45:29 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected 'endif' (T_ENDIF), expecting end of file (0)
+/home/bitrix/www/local/templates/exam1/header.php:330
+#0: require
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#1: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#2: require(string)
+	/home/bitrix/www/s2/rew/index.php:2
+----------
+

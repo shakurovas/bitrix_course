@@ -2,15 +2,18 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Личный кабинет покупателя");
 ?><?$APPLICATION->IncludeComponent(
-	"bitrix:main.profile",
-	"",
-	Array(
-		"CHECK_RIGHTS" => "Y",
+	"bitrix:main.profile", 
+	"seller_or_buyer_profile", 
+	array(
+		"CHECK_RIGHTS" => "N",
 		"SEND_INFO" => "N",
 		"SET_TITLE" => "Y",
-		"USER_PROPERTY" => array(),
-		"USER_PROPERTY_NAME" => ""
-	)
+		"USER_PROPERTY" => array(
+		),
+		"USER_PROPERTY_NAME" => "",
+		"COMPONENT_TEMPLATE" => "seller_or_buyer_profile"
+	),
+	false
 );?><br>
 <?$APPLICATION->IncludeComponent(
 	"bitrix:subscribe.form",
