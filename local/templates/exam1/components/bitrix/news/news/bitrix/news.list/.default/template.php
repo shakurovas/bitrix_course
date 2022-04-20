@@ -14,9 +14,9 @@ $this->setFrameMode(true);
 // echo '<pre>';
 // print_r($arResult['ITEMS'][1]);
 // echo '</pre>';
-function mb_ucfirst($str) {
-	return mb_strtoupper(mb_substr($str, 0, 1)) . mb_substr($str, 1);
-}
+// function mb_ucfirst($str) {
+// 	return mb_strtoupper(mb_substr($str, 0, 1)) . mb_substr($str, 1);
+// }
 ?>
 
 <?if($arParams["DISPLAY_TOP_PAGER"]):?>

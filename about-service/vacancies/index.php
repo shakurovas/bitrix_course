@@ -26,7 +26,7 @@ $APPLICATION->SetTitle("Вакансии");
 		),
 		"DETAIL_PAGER_SHOW_ALL" => "Y",
 		"DETAIL_PAGER_TEMPLATE" => "",
-		"DETAIL_PAGER_TITLE" => "Страница",
+		"DETAIL_PAGER_TITLE" => "Вакансия",
 		"DETAIL_PROPERTY_CODE" => array(
 			0 => "",
 			1 => "",
@@ -58,7 +58,7 @@ $APPLICATION->SetTitle("Вакансии");
 		"PAGER_SHOW_ALL" => "N",
 		"PAGER_SHOW_ALWAYS" => "N",
 		"PAGER_TEMPLATE" => ".default",
-		"PAGER_TITLE" => "Новости",
+		"PAGER_TITLE" => "Вакансии",
 		"PREVIEW_TRUNCATE_LEN" => "",
 		"SEF_FOLDER" => "/about-service/vacancies/",
 		"SEF_MODE" => "Y",

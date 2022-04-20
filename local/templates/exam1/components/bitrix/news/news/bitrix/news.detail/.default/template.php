@@ -18,7 +18,7 @@ $this->setFrameMode(true);
 
 <?
 $APPLICATION->SetTitle(GetMessage('REVIEW') . ' - ' . $arResult['NAME'] . ' - ' . $arResult['PROPERTIES']['COMPANY']['VALUE']);
-// $APPLICATION->SetPageProperty("title", GetMessage('REVIEW') . ' - ' . $arResult['NAME']);
+$APPLICATION->SetPageProperty("title", GetMessage('REVIEW') . ' - ' . $arResult['NAME'] . ' - ' . $arResult['PROPERTIES']['COMPANY']['VALUE']);
 // $APPLICATION->SetPageProperty("keywords", "лучшие, отзывы, " . $arResult['PROPERTIES']['COMPANY']['VALUE']);
 // $APPLICATION->SetPageProperty("description", $arResult['PREVIEW_TEXT']);
 ?>

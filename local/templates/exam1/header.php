@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 use Bitrix\Main\Page\Asset;
 if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die(); #Данная строчка указывается в начале файла для секретности - чтобы нельзя было открыть данный файл напрямую из браузера, без подключения ядра Битрикса
@@ -11,6 +10,10 @@ IncludeTemplateLangFile(__FILE__); #Подключаются языковые ф
 // $APPLICATION->ShowPanel(); #Подключает панель битрикса
 define('SITE_TEMPLATE_PATH', '/local/templates/exam1'); #Содержит путь до шаблона, без последнего слеша
 // $APPLICATION->GetCurPage(false) === '/'; #Необходим, если главная страница отличается от внутренней по верстке
+
+function mb_ucfirst($str) {
+	return mb_strtoupper(mb_substr($str, 0, 1)) . mb_substr($str, 1);
+}
 ?>
 <!DOCTYPE html>
 <html lang="<?=LANGUAGE_ID;?>">
@@ -99,14 +102,16 @@ define('SITE_TEMPLATE_PATH', '/local/templates/exam1'); #Содержит пут
             <div class="breadcrumbs-box">
                 <div class="inner-wrap">
                     <?$APPLICATION->IncludeComponent(
-                        "bitrix:breadcrumb",
-                        "breadcrumbs_nav",
-                        Array(
-                            "PATH" => "",
-                            "SITE_ID" => "s1",
-                            "START_FROM" => "0"
-                        )
-                    );?>
+	"bitrix:breadcrumb", 
+	"breadcrumbs_nav", 
+	array(
+		"PATH" => "",
+		"SITE_ID" => "s2",
+		"START_FROM" => "0",
+		"COMPONENT_TEMPLATE" => "breadcrumbs_nav"
+	),
+	false
+);?>
                     <!-- <a href="">Главная</a>
                     <a href="">Мебель</a>
                     <span>Выставки и события</span> -->

@@ -1,6 +1,6 @@
 <?
 $sSectionName = "Отзывы";
-$arDirProperties = Array(
+$arDirProperties = array(
    "description" => "Отзывы о нашей мебельной компании",
    "keywords" => "мягкая мебель, офисная мебель, мебель для кухни, детская мебель, отзывы",
    "title" => "Отзывы",

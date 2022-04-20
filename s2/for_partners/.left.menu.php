@@ -18,7 +18,7 @@ $aMenuLinks = Array(
 		"Расписание мероприятий", 
 		"/s2/for_partners/events_shedule/", 
 		Array(), 
-		Array(), 
+		Array("TEXT2"=>"текст для подпункта \"Расписание мероприятий\""), 
 		"" 
 	)
 );
