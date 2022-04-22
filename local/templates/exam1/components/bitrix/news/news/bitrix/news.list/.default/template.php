@@ -36,7 +36,11 @@ $this->setFrameMode(true);
 					<?=$arItem['PREVIEW_TEXT'];?>
 				</div>
 			</div>
-			<div class="review-img-wrap"><a href="<?=$arItem['DETAIL_PAGE_URL'];?>"><img src="<?if(is_array($arItem['PREVIEW_PICTURE'])) echo $arItem['PREVIEW_PICTURE']['SRC']; else echo SITE_TEMPLATE_PATH . '/img/rew/no_photo.jpg'?>" alt="img"></a></div>
+			<div class="review-img-wrap"><a href="<?=$arItem['DETAIL_PAGE_URL'];?>"><img src="
+				<?$renderImage = CFile::ResizeImageGet($arItem["DETAIL_PICTURE"], Array("width" => 68, "height" => 50));
+				if(is_array($arItem['DETAIL_PICTURE'])) echo $arItem['DETAIL_PICTURE']['SRC'];
+				else echo SITE_TEMPLATE_PATH . '/img/rew/no_photo.jpg'?>" alt="img">
+			</a></div>
 		</div>
 	</div>
 <?endforeach;?>

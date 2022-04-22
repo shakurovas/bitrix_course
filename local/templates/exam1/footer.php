@@ -30,12 +30,23 @@ SITE_TEMPLATE_PATH;
                     )
                 );?>
                 <!-- side anonse -->
-                <div class="side-block side-anonse">
+                <!-- <div class="side-block side-anonse">
                     <div class="title-block"><span class="i i-title01"></span>Полезная информация!</div>
                     <div class="item">
-                        <p>Клиенты предпочитают все больше эко-материалов.</p>
+                        <p> -->
+                            <?$APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                "useful_info",
+                                Array(
+                                    "AREA_FILE_RECURSIVE" => "Y",
+                                    "AREA_FILE_SHOW" => "sect",
+                                    "AREA_FILE_SUFFIX" => "inc",
+                                    "EDIT_TEMPLATE" => ""
+                                )
+                            );?>    
+                        <!-- </p>
                     </div>
-                </div>
+                </div> -->
                 <!-- /side anonse -->
                 <!-- side wrap -->
                 <div class="side-wrap">
@@ -80,7 +91,7 @@ SITE_TEMPLATE_PATH;
 		"DETAIL_URL" => "",
 		"DISPLAY_BOTTOM_PAGER" => "N",
 		"DISPLAY_DATE" => "Y",
-		"DISPLAY_NAME" => "N",
+		"DISPLAY_NAME" => "Y",
 		"DISPLAY_PICTURE" => "Y",
 		"DISPLAY_PREVIEW_TEXT" => "Y",
 		"DISPLAY_TOP_PAGER" => "N",
@@ -94,7 +105,7 @@ SITE_TEMPLATE_PATH;
 		"IBLOCK_ID" => "14",
 		"IBLOCK_TYPE" => "reviews",
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
-		"INCLUDE_SUBSECTIONS" => "N",
+		"INCLUDE_SUBSECTIONS" => "Y",
 		"MESSAGE_404" => "",
 		"NEWS_COUNT" => "2",
 		"PAGER_BASE_LINK_ENABLE" => "N",
@@ -186,7 +197,17 @@ SITE_TEMPLATE_PATH;
                 <div class="title-block"><?=GetMessage('contact_info');?></div>
                 <div class="loc-block">
                     <div class="address">ул. Летняя, стр.12, офис 512</div>
-                    <div class="phone"><a href="tel:84952128506">8 (495) 212-85-06</a>
+                    <div class="phone"><a href="tel:84952128506">
+                        <?$APPLICATION->IncludeComponent(
+                            "bitrix:main.include",
+                            "",
+                            Array(
+                                "AREA_FILE_SHOW" => "file",
+                                "AREA_FILE_SUFFIX" => "inc",
+                                "EDIT_TEMPLATE" => "",
+                                "PATH" => "/include/phone_s2.php"
+                            )
+                        );?></a>
                     </div>
                 </div>
                 <div class="main-soc-block">

@@ -28,7 +28,7 @@
 
 						<?if ($arItem["IS_PARENT"]):?>
 							<?if ($arItem["DEPTH_LEVEL"] == 1):?>
-								<li><a href="<?=$arItem["LINK"]?>" class="<?if ($arItem["SELECTED"]):?>color-green<?endif?>"><?=$arItem["TEXT"]?></a>
+								<li><a href="<?=$arItem["LINK"];?>" class="<?if($arItem['PARAMS']['CLASS_STYLE']) echo $arItem['PARAMS']['CLASS_STYLE'];?>"><?=$arItem["TEXT"];?></a>
 									<ul>
 									<?if($arItem['PARAMS']['TEXT']):?>
 										<div class="menu-text">
@@ -37,11 +37,11 @@
 									<?endif;?>
 									
 							<?else:?>
-								<li<?if ($arItem["SELECTED"]):?> class="color-green"<?endif;?>><a href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a>
+								<li><a href="<?=$arItem["LINK"];?>"><?=$arItem["TEXT"];?></a>
 									<ul>
-									<?if($arItem['PARAMS']['TEXT2']):?>
+									<?if($arItem['PARAMS']['TEXT']):?>
 										<div class="menu-text">
-											<? echo $arItem['PARAMS']['TEXT2'];?>
+											<? echo $arItem['PARAMS']['TEXT'];?>
 										</div>
 									<?endif;?>
 
@@ -52,9 +52,9 @@
 							<?if ($arItem["PERMISSION"] > "D"):?>
 
 								<?if ($arItem["DEPTH_LEVEL"] == 1):?>
-									<li><a href="<?=$arItem["LINK"]?>" class="<?if ($arItem["SELECTED"]):?>color-green<?endif?>"><?=$arItem["TEXT"]?></a></li>
+									<li><a href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a></li>
 								<?else:?>
-									<li<?if ($arItem["SELECTED"]):?> class="color-green"<?endif?>><a href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a></li>
+									<li><a href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a></li>
 								<?endif?>
 
 							<?//else:?>
