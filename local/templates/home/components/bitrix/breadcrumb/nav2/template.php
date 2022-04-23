@@ -48,7 +48,8 @@ for($index = 0; $index < $itemSize; $index++)
 	}
 	else
 	{
-		$strReturn .= '<span class="mx-2 text-white">&bullet;</span><strong class="text-white">'.$title.'</strong>';
+		if ($APPLICATION->GetCurPage(false) === '/about-service/vacancies/') $title = 'Вакансии';
+		$strReturn .= '<span class="mx-2 text-white">&bullet;</span><strong class="text-white">'. $title .'</strong>';
 	}
 }
 

@@ -1,0 +1,1000 @@
+2022-04-23 05:25:22 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/company/management.php:2
+----------
+
+2022-04-23 06:16:40 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/rew/index.php:2
+----------
+
+2022-04-23 06:16:44 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/rew/index.php:2
+#12: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:160
+#13: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+
+2022-04-23 06:16:50 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/company/history.php:2
+----------
+
+2022-04-23 06:17:01 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/for_partners/how_to_become_a_partner.php:2
+----------
+
+2022-04-23 06:19:46 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/for_partners/how_to_become_a_partner.php:2
+----------
+
+2022-04-23 06:20:06 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/for_partners/index.php:2
+----------
+
+2022-04-23 06:20:29 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/for_partners/index.php:2
+----------
+
+2022-04-23 06:21:11 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/for_partners/index.php:2
+----------
+
+2022-04-23 06:26:00 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/rew/index.php:2
+----------
+
+2022-04-23 06:26:01 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/ask/index.php:2
+----------
+
+2022-04-23 09:22:37 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [Error] 
+Class 'CIBlockProperty' not found (0)
+/home/bitrix/www/bitrix/components/mcart/vacansii/templates/.default/.parameters.php:4
+#0: include
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_util.php:1011
+#1: CComponentUtil::GetTemplateProps(string, string, string, array)
+	/home/bitrix/www/bitrix/modules/fileman/classes/general/component_params_manager.php:129
+#2: CComponentParamsManager::GetComponentProperties(string, string, string, array)
+	/home/bitrix/www/bitrix/modules/main/public/component_props2.php:119
+#3: require(string)
+	/home/bitrix/www/bitrix/admin/component_props.php:1
+----------
+
+2022-04-23 09:55:15 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method CMain::SetProperty() (0)
+/home/bitrix/www/about-service/vacancies/index.php:5
+----------
+
+2022-04-23 09:55:49 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method CMain::SetProperty() (0)
+/home/bitrix/www/about-service/vacancies/index.php:5
+----------
+
+2022-04-23 09:56:07 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method CMain::SetProperty() (0)
+/home/bitrix/www/about-service/vacancies/index.php:5
+----------
+
+2022-04-23 10:20:05 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/index.php:2
+----------
+
+2022-04-23 10:20:10 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/index.php:2
+----------
+
+2022-04-23 13:22:52 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/company/vacancies.php:2
+----------
+
+2022-04-23 13:29:47 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/index.php:2
+----------
+
+2022-04-23 13:29:53 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/rew/index.php:2
+----------
+
+2022-04-23 13:29:54 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/ask/index.php:2
+----------
+
+2022-04-23 13:34:04 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/company/vacancies.php:2
+----------
+
+2022-04-23 13:35:29 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/company/vacancies.php:2
+----------
+
+2022-04-23 13:35:48 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/company/history.php:2
+----------
+
+2022-04-23 13:35:55 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/for_partners/events_shedule/index.php:2
+----------
+
+2022-04-23 13:44:41 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/rew/index.php:2
+----------
+
+2022-04-23 13:46:03 - Host: 178.154.206.90:80 - UNCAUGHT_EXCEPTION - [Error] 
+Class 'CIBlockProperty' not found (0)
+/home/bitrix/www/bitrix/components/mcart/vacansii/templates/.default/.parameters.php:4
+#0: include
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_util.php:1011
+#1: CComponentUtil::GetTemplateProps(string, string, string, array)
+	/home/bitrix/www/bitrix/modules/fileman/classes/general/component_params_manager.php:129
+#2: CComponentParamsManager::GetComponentProperties(string, string, string, array)
+	/home/bitrix/www/bitrix/modules/main/public/component_props2.php:119
+#3: require(string)
+	/home/bitrix/www/bitrix/admin/component_props.php:1
+----------
+
+2022-04-23 13:54:08 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/rew/index.php:2
+----------
+
+2022-04-23 13:54:59 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/rew/index.php:2
+----------
+
+2022-04-23 13:55:05 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/ask/index.php:2
+----------
+
+2022-04-23 13:55:08 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/search/index.php:2
+----------
+
+2022-04-23 13:55:12 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/for_partners/index.php:2
+----------
+
+2022-04-23 13:59:17 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/products/index.php:2
+----------
+
+2022-04-23 13:59:17 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:53
+#2: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#3: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#4: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#5: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#6: CAllMain->IncludeComponent(string, string, array)
+	/home/bitrix/www/local/templates/exam1/footer.php:20
+#7: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_before.php:93
+#8: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:2
+#9: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#10: require(string)
+	/home/bitrix/www/s2/products/index.php:4
+----------
+
+2022-04-23 13:59:24 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/ask/index.php:2
+----------
+
+2022-04-23 13:59:29 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/ask/index.php:2
+----------
+
+2022-04-23 14:00:07 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/for_partners/index.php:2
+----------
+
+2022-04-23 14:00:32 - Host: 178.154.206.90:80 - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant s2 - assumed 's2' (this will throw an Error in a future version of PHP) (0)
+/home/bitrix/www/s2/products/.left.menu_ext.php:31
+#0: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/menu.php:115
+#1: CMenu->Init(string, boolean, string, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/class.php:110
+#2: CBitrixMenuComponent->getChildMenuRecursive(array, array, string, boolean, string, integer, integer, boolean, boolean, boolean)
+	/home/bitrix/www/bitrix/components/bitrix/menu/component.php:72
+#3: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:607
+#4: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:105
+#5: CBitrixComponent->executeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:660
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1072
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/local/templates/exam1/header.php:97
+#8: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_after.php:106
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog.php:11
+#10: require_once(string)
+	/home/bitrix/www/bitrix/header.php:1
+#11: require(string)
+	/home/bitrix/www/s2/ask/active_ask.php:2
+----------
+

@@ -1,4 +1,7 @@
 <?
+$PERM["bitrix"]["10"]="D";
+$PERM["bitrix"]["9"]="D";
+$PERM["bitrix"]["*"]="D";
 $PERM["/"]["8"]="W";
 $PERM["/"]["*"]="R";
 $PERM["advertisments"]["8"]="W";

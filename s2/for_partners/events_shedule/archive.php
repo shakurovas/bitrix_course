@@ -1,7 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetPageProperty("tags", "архив, расписание, партнёры, партнёрство");
-$APPLICATION->SetPageProperty("description", "Архив");
+$APPLICATION->SetPageProperty("description", "Партнерам. Выгодное сотрудничество с лидером отрасли.");
 $APPLICATION->SetTitle("Архив");
 ?>
 

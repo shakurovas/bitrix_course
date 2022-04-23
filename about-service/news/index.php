@@ -1,5 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+// if($APPLICATION->GetCurPage(false) === '/about-service/news/') $APPLICATION->SetTitle("Новости"); elseif($APPLICATION->GetCurPage(false) === '/about-service/vacancies/')$APPLICATION->SetTitle("Вакансии");
+
 $APPLICATION->SetTitle("Новости");
 ?><?$APPLICATION->IncludeComponent(
 	"bitrix:news", 
